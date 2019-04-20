@@ -125,7 +125,7 @@ public class TransactionLog extends JTable{
 		while(getRowCount() > 0)
 		{
 			//Clear all transactions within the table
-			balance.clearBalance();
+			//balance.clearBalance();
 			deleteModel.removeRow(0);
 			totPets = 0;
 			totBills = 0;
